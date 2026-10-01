@@ -81,8 +81,8 @@ These values were converted to the appropriate floating-point data types.
 
 The original dataset was divided into three datasets based on their purpose:
 
-| Archivo | Descripción |
+| File | Description |
 | :--- | :--- |
-| `client.csv` | Información demográfica y financiera de los clientes |
-| `campaign.csv` | Información de la campaña actual y de las anteriores |
-| `economics.csv` | Indicadores económicos asociados a la campaña |
+| `client.csv` | Customer demographic and financial information |
+| `campaign.csv` | Current and previous campaign information |
+| `economics.csv` | Economic indicators associated with the campaign |
