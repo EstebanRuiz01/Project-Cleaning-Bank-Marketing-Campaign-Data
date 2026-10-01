@@ -12,13 +12,13 @@ The project was completed as part of a DataCamp data analysis project.
 
 The main goals of this project were to:
 
-Clean and standardize the original dataset.
-Correct inconsistent values and formats.
-Convert columns to the required data types.
-Handle missing and unknown values.
-Create a properly formatted contact date.
-Separate the data into logical datasets.
-Produce CSV files ready for PostgreSQL import.
+* Clean and standardize the original dataset.
+* Correct inconsistent values and formats.
+* Convert columns to the required data types.
+* Handle missing and unknown values.
+* Create a properly formatted contact date.
+* Separate the data into logical datasets.
+* Produce CSV files ready for PostgreSQL import.
 
 ## 🛠️ Technologies & Tools
 Python
