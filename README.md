@@ -21,8 +21,68 @@ The main goals of this project were to:
 * Produce CSV files ready for PostgreSQL import.
 
 ## 🛠️ Technologies & Tools
-Python
-Pandas
-NumPy
-Jupyter Notebook
-CSV
+* Python
+* Pandas
+* NumPy
+* Jupyter Notebook
+* CSV
+
+## 💡 What I Learned
+
+Through this project, I practiced several important data-preparation techniques:
+
+* Data type conversion with Pandas.
+* Cleaning inconsistent categorical values.
+* Handling missing values.
+* Creating and formatting datetime columns.
+* Converting categorical variables into boolean values.
+* Splitting a dataset into logically related tables.
+* Preparing structured data for relational database storage.
+
+This project helped reinforce the importance of data quality and consistency before loading information into a database.
+
+## 🧹 Data Cleaning & Transformation
+
+Several transformations were performed on the original bank_marketing.csv dataset.
+
+### Client Data
+
+The customer information was separated into client.csv.
+
+Key transformations included:
+
+* Converting IDs and ages to integer types.
+* Replacing . with _ in job and education values.
+* Converting unknown education values to NaN.
+* Converting credit default and mortgage values into boolean indicators.
+
+Campaign Data
+
+Campaign information was stored in campaign.csv.
+
+## The cleaning process included:
+
+* Converting numerical columns to integer types.
+* Converting campaign outcomes to boolean values.
+* Creating a last_contact_date column.
+* Combining the contact day and month with a new year value of 2022.
+* Formatting dates as YYYY-MM-DD.
+
+## Economic Data
+
+Economic indicators were separated into economics.csv.
+
+The dataset contains:
+* Consumer Price Index (cons_price_idx)
+* Three-month Euribor rate (euribor_three_months)
+These values were converted to the appropriate floating-point data types.
+
+## 📊 Final Datasets
+
+The original dataset was divided into three datasets based on their purpose:
+
+| Archivo | Descripción |
+| :--- | :--- |
+| `client.csv` | Información demográfica y financiera de los clientes |
+| `campaign.csv` | Información de la campaña actual y de las anteriores |
+| `economics.csv` | Indicadores económicos asociados a la campaña |
