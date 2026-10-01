@@ -8,7 +8,7 @@ The dataset comes from a marketing campaign where a bank contacted customers to 
 
 The project was completed as part of a DataCamp data analysis project.
 
-🎯 Objectives
+## 🎯 Objectives
 
 The main goals of this project were to:
 
@@ -19,3 +19,10 @@ Handle missing and unknown values.
 Create a properly formatted contact date.
 Separate the data into logical datasets.
 Produce CSV files ready for PostgreSQL import.
+
+## 🛠️ Technologies & Tools
+Python
+Pandas
+NumPy
+Jupyter Notebook
+CSV
