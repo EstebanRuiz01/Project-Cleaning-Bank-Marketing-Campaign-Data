@@ -1,6 +1,6 @@
 # 🏦 Project-Cleaning-Bank-Marketing-Campaign-Data
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 This project focuses on cleaning, transforming, and restructuring bank marketing campaign data to prepare it for storage in a PostgreSQL database.
 
